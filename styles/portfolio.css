@@ -48,6 +48,7 @@ nav a{
   border: none;
   
   
+  
 }
 .text-header{
     text-align: center;
@@ -67,11 +68,12 @@ nav a{
 
 .btn-primary{
   margin: 35px 630px 155px 630px;
-  
+ 
   
 }
 .btn-stay{
   margin-bottom: 152px;
+  
 }
 .section-1{
   display: flex;
@@ -161,6 +163,7 @@ nav a{
   font-size: 16px;
   font-weight: 700;
   border: none;
+  
 }
 textarea::placeholder {
   font-size: 20px;
@@ -205,3 +208,17 @@ footer p {
   text-decoration: none;
   color: #8987a1;
 }
+.btn-secondary,
+.btn-get-in-touch,
+button {
+  cursor: pointer;
+}
+.btn-secondary:hover,
+.btn-get-in-touch:hover,
+button:hover {
+  background-color: #bd8b02;
+  
+  
+}
+
+
