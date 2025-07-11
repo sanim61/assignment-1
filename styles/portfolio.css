@@ -70,3 +70,23 @@ nav a{
 .btn-stay{
   margin-bottom: 152px;
 }
+.section-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 116px 165px 116px 155px;
+}
+.section-1-title{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+.section-1-text{
+  font-weight: 400;
+  font-size: 24px;
+  color: #252432;
+  margin-bottom: 23px;
+}
+  .section-1-img{
+  border-radius: 48px;
+}
