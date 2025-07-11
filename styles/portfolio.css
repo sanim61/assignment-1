@@ -90,3 +90,30 @@ nav a{
   .section-1-img{
   border-radius: 48px;
 }
+.sec-2{
+  height: 306px;
+  background-color: #E6E8FF;
+  margin: 116px 165px 116px 155px;
+  border-radius: 24px;
+  padding: 50px 142px 0px 142px;
+}
+.main-div-sec-2{
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+  text-align: center;
+}
+.heading-sec-2{
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #252432;
+}
+.main-div-sec-2 h1{
+  font-size: 80px;
+  color: #4E47FF;
+}
+.main-div-sec-2 p{
+  font-weight: 600;
+}
