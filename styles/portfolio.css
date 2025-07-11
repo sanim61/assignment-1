@@ -13,6 +13,9 @@
   font-weight: 800;
   font-style: normal;
 }
+body{
+  background-color: #F0F2FB;
+}
 .header {
   background-image: url(Assets/Hero-bg.png);
   background-repeat: no-repeat;
@@ -116,4 +119,54 @@ nav a{
 }
 .main-div-sec-2 p{
   font-weight: 600;
+}
+/* footer styles */
+.Touch-Section {
+    padding: 130px 150px;
+    display: flex;
+    gap: 90px;
+}
+.touch-column{
+    width: 50%;
+}
+
+.Touch-Section input[type="text"], .Touch-Section input[type="email"],.Touch-Section textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.Touch-Section textarea{
+    height: 100px;
+    
+}
+.Touch-title{
+  font-weight: 700;
+  font-size: 97px;
+  margin-top: 110px;
+}
+.input-lebel{
+  margin-bottom: 5px;
+}
+.btn-get-in-touch { 
+  background-color: #4e4bff;
+  color: white;
+  width: 650px;
+  height: 62px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+textarea::placeholder {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
 }
