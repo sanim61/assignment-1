@@ -170,3 +170,38 @@ input::placeholder {
   font-family: "Inter", sans-serif;
   font-size: 20px;
 }
+/* footer styles */
+footer {
+  width: 100%;
+  height: 430px;
+  background-color: white;
+}
+.footer-sec {
+  font-size: 120px;
+  font-weight: 900;
+  text-align: center;
+  color: #4e47ff;
+  padding-top: 100px;
+}
+footer p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #8987a1;
+}
+.footer-nav {
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: #8987a1;
+}
